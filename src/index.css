@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+@theme {
+  --color-background: #fcfcfc;
+  --color-light-purple: oklch(0.894 0.057 293.283);
+  --color-light-gray: oklch(0.967 0.003 264.542);
+  --color-hover-purple: oklch(0.702 0.183 293.541);
+}
