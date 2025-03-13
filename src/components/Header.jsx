@@ -31,11 +31,11 @@ export default function Header({ toggleMenu }) {
     <div className="bg-white p-6 shadow-md flex justify-between items-center relative">
       <div className="flex items-center space-x-4">
         <h1 className="text-2xl font-semibold text-gray-800">CRM-App</h1>
-        <div className="group border border-transparent p-2 transition-all duration-300 bg-light-purple hover:bg-hover-purple rounded-2xl">
-          <FaBars
-            className="text-black group-hover:text-white"
-            onClick={toggleMenu}
-          />
+        <div
+          className="group border border-transparent p-2 transition-all duration-300 bg-light-purple hover:bg-hover-purple rounded-2xl"
+          onClick={toggleMenu}
+        >
+          <FaBars className="text-black group-hover:text-white" />
         </div>
       </div>
 

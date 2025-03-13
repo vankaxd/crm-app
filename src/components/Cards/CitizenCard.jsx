@@ -20,7 +20,7 @@ export default function CitizenCard({ citizen }) {
   return (
     <div className="flex-1">
       <div
-        className="bg-white flex flex-col justify-between min-w-[350px] h-[300px] border border-light-gray rounded-2xl p-5 shadow-md transition-transform hover:scale-105 hover:shadow-lg cursor-pointer"
+        className="bg-white flex flex-col justify-between min-w-[350px] h-[300px] border rounded-2xl p-5 shadow-md transition-transform hover:scale-105 hover:shadow-lg cursor-pointer"
         onClick={() => navigate("/citizenProfile")}
       >
         <div className="flex items-center gap-4">
